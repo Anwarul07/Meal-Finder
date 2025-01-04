@@ -1,0 +1,17 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.logo{
+  text-align: center;
+  margin-top: 11px;
+  font-size: 23px;
+}
+.searchBar{
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+} 
