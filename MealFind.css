@@ -15,3 +15,47 @@ body{
   justify-content: center;
   margin-top: 14px;
 } 
+.searchBar input{
+  width: 300px;
+  height: 12px;
+  padding: 11px;
+  outline: none;
+  border-radius: 33px;
+  border: 1px solid rgb(53, 53, 53);
+  font-size: 18px;
+}
+.searchBar button{
+  width: 60px;
+  height: 36px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  margin-left: -33px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  background-color: orangered;
+}
+.category{
+  
+  width: 600px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 33px;
+}
+.category .dishs{
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: auto;
+  transition: all 1s ease;
+
+}
+.dishs button{
+  position: relative;
+  top: 44px; 
+}
